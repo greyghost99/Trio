@@ -12,6 +12,7 @@ enum Icon_: String, CaseIterable, Identifiable {
     case catWithPod
     case catWithPodWhite = "catWithPodWhiteBG"
     case loop = "trioLoop"
+    case darkpod = "darkpod"
     var id: String { rawValue }
 }
 
